@@ -51,12 +51,12 @@ Use the copy function below to do the following:
 }  
 copy();*/
 
-function copy(array){
-    return [...array];
+function copy(newArray){
+    return [...newArray];
     }    
     
     copy(originalFlavors);
-
+/* What is this code doing? I have added newArray as the parameter and requested to copy originalFlavors to newArray */
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -77,6 +77,7 @@ function is31Flavors(howMany){
     }
 }
 is31Flavors();
+/* What is this code doing? If the array length is equal to 31 return true otherwise return false. Call the function*/
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -96,6 +97,7 @@ function addFlavor(originalFlavors){
    return originalFlavors;
 }
 addFlavor(originalFlavors);
+/* What is this code doing? Using unshift with the named flavor to add to the front of the array */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Houston, we have a problem! There are now 32 flavors in the originalFlavors array! Your task is to remove an item from the end of the array. 
@@ -114,7 +116,7 @@ function removeLastFlavor(originalFlavors){
 }
 removeLastFlavor(originalFlavors);
 
-
+/* Remember: keep all of your names consistant throughout the code.  */
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
